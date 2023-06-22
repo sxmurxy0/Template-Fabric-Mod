@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "template",
+  "version": "1.0",
+
+  "name": "§c§lTemplate§f",
+  "description": "?",
+  "authors": [
+    "§c§lsxmurxy§f"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.sxmurxy.template.TemplateMod"
+    ]
+  },
+  "mixins": [
+    "template.mixin.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
